@@ -151,6 +151,9 @@ a:hover{
     .content > h3{
         font-size: 2rem;
     }
+    .content{
+        width: 100%;
+    }
 }
 
 @media (min-width: 677px) and (max-width: 799px){
@@ -173,12 +176,19 @@ a:hover{
     .content > h3{
         font-size: 2rem;
     }
+    .content{
+        width: 100%;
+    }
 }
 
 
 @media (min-width: 800px) and (max-width: 1300px){
     .gifts{
         flex-direction: column;
+    }
+
+    .content{
+        width: 100%;
     }
 }
 
